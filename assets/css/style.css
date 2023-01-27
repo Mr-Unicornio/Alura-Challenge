@@ -1,0 +1,128 @@
+*{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.info{
+    font-family: 'Inter';
+    margin-left: 20px;
+
+}
+
+.centrar {
+    background-image: url("imagenes/fondo.jpg");
+    width: 900px ;
+    margin:auto ; 
+}
+
+.centro{
+    background: white;
+    margin-top: 15px ;
+    border-radius: 24px;
+    
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 20px;
+    width: 2%;
+    display: flex;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.txtarea{
+    text-align: center;
+    border: none;
+    resize: none;
+    margin-top: 90px;
+    color: #0A3871;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+::placeholder{
+    color:#0A3871;
+}
+.txtarea:focus{
+    outline: none;
+}
+.informacion{
+    font-size: 15px;
+}
+
+.mensaje{
+    text-align: center;
+    background-color: white;
+    background-image:url(imagenes/persona.png);
+    background-repeat: no-repeat;
+    background-position: 20px 100px;
+    background-size: 75%;
+    box-shadow: 0px 10px 32px -1px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 24px;
+    color: blue;
+    margin-left: 100px;
+    margin-top: 20px;
+    position: fixed;
+    width: 300px;
+    height:600px;
+    top: 40px;
+    resize: none;
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.botonEncriptar{
+    background: #0A3871; 
+    border: 1px solid #0A3871;
+    border-radius: 24px; 
+    color:white;
+    cursor: pointer;
+    width: 150px;
+    height: 54px;
+}
+.botonDesEncrip{
+    background: #d3d3d3da; 
+    border: 1px solid #0A3871;
+    border-radius: 20px; 
+    color:#0A3871;
+    cursor: pointer;
+    width: 150px;
+    height: 54px;
+    margin-left: 20px;
+}
+.copiar{
+    background: #d3d3d3da; 
+    border: 1px solid #0A3871;
+    border-radius: 20px; 
+    color:#0A3871;
+    cursor: pointer;
+    width: 150px;
+    height: 54px;
+    margin-left: 170px;
+    margin-top: 495px;
+    position: absolute;
+}
+.infopersonal {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    flex-direction: row;
+}
+
+.infopersonal a img {
+    height: 100%;
+    margin-left: 20px;
+}

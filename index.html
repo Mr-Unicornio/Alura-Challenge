@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Challeng Alura Encriptador</title>
+</head>
+<body class="centrar">
+    <div class="centro">
+    <header>
+        <img class="logo" src="imagenes/logo.png" alt="logo alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="txtarea" cols="30" rows="10" placeholder="Ingrese texto a encriptar o desencriptar" ></textarea>
+            <div>
+                <h6 class="informacion"><img src="imagenes/exclamacion.png"> Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button onclick="encriptartxt()" class="botonEncriptar">Encriptar</button>
+                <button onclick="desencriptartxt()" class="botonDesEncrip">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" id="mensajeid" cols="20" rows="10"></textarea>
+            <div>
+                <button onclick="copiar()" class="copiar" >Copiar</button>
+            </div>
+            
+        </section>
+        <script src="encriptar.js"></script>
+        
+    </main>
+    <h1 class="info">Información personal:</h1>
+    <div class="infopersonal">
+        <a href="https://www.linkedin.com/in/francisco-velueta/"><img src="imagenes/link.png"></a>
+        <a href="https://github.com/Mr-Unicornio"><img src="imagenes/git.png"></a>
+    </div>
+    </div>
+</body>
+</html>
